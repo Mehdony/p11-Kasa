@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Error from "./components/Error/Error";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       {/* path="*" fonctionne si jamais l'url correspond à rien de déclaré au dessus */}
-      <Route path="*" element={<Home />} />
+      {/* <Route path="*" element={<Home />} /> */}
+      <Route path="/*" element={<Error />} />
     </Routes>
     </BrowserRouter>
   );

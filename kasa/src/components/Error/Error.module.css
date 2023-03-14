@@ -1,0 +1,32 @@
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.errorCode {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+  color: #ff6060;
+}
+
+.errorText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #ff6060;
+  margin-bottom: 182px;
+}
+
+.errorLink {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  text-decoration-line: underline;
+  color: #ff6060;
+}
