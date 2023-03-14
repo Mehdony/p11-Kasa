@@ -1,0 +1,29 @@
+.bannerContainer {
+  height: 223px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.blend{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.bannerText {
+  position: absolute;
+  color: white;
+}
