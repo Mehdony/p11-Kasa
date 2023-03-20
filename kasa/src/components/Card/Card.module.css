@@ -3,6 +3,7 @@
   height: 340px;
   background-color: #ff6060;
   border-radius: 10px;
+  position: relative;
 }
 
 .layer {
@@ -14,12 +15,30 @@
     rgba(0, 0, 0, 0.5) 100%
   );
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 }
 
 .title {
-  color: white;
+  color: white ;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  position: absolute;
+  display: inline;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.imgContainer{
+  width: 340px;
+  height: 340px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 25px;
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
 }
