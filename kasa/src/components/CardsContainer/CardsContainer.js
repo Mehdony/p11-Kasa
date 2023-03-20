@@ -9,7 +9,7 @@ const CardsContainer = () => {
   return (
     <div className={styles.cardsContainer}>
       {datas.map((data, index) => {
-        return <Card title={data.title} key={index} cover={data.cover} />;
+        return <Card title={data.title} key={index} cover={data.cover} id={data.id} />;
       })}
     </div>
   );
