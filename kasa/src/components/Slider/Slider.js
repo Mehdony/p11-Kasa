@@ -32,6 +32,8 @@ const Slider = (props) => {
         </>
       )}
     </section>
+
+    
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Slider from "../components/Slider/Slider";
 import * as data from "../MocksDatas/datas.json";
+import HostInfos from "../components/HostInfos/HostInfos";
 
 
 const Logement = () => {
@@ -12,6 +13,7 @@ const Logement = () => {
   return (
     <div>
       <Slider datas={datas} />
+      <HostInfos datas={datas} />
     </div>
   );
 };
