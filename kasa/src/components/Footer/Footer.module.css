@@ -1,0 +1,38 @@
+.footerContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 100%;
+    /* max-width: 1440px */
+    height: 209px;
+    justify-self: flex-end;
+    margin-top: 180px;
+    row-gap: 30px;
+}
+
+
+.footerLogo {
+height: 40px;
+width: 122px;
+}
+
+.footerText {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 142.6%;
+text-align: center;
+}
+
+@media screen and (max-width:375px) {
+    .footerText {
+       
+        font-size: 12px;
+       
+        }
+}

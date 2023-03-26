@@ -71,4 +71,7 @@
     cursor: pointer;
 }
 
+.counter{
+display: none;
+}
 }

@@ -106,17 +106,18 @@
         height: 120px;
         align-items: center;
         margin-top: 15px;
-        margin-bottom: 26px;
-        margin-left: 20px;
-
+        margin-bottom: 16px;
+        margin-left: 0;
+        padding: 0 20px;
+        row-gap: 10px;
     }
 
     .titleLocationTags {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100%;
-        width: 375px;
+        width: 100%;
+        row-gap: 10px;
     }
     
 
@@ -124,12 +125,14 @@
         font-size: 18px;
         line-height: 25px;
         font-weight: 400;
-        width: 350px;
+        
     }
 
     .location {
         font-size: 14px;
         font-weight: 400;
+        margin: 0;
+        line-height: 20px;
     }
 
     .tags {
@@ -148,20 +151,20 @@
         background-color: #FF6060;
         color: white;
         font-size: 10px;
-        width: 50px;
         height: 20px;
-        padding: 0 20px;
+        padding: 0 15px;
         border-radius: 5px;
         line-height: 12px;
-        
-       
+        min-width: inherit;
       }
 
       .namePpRating {
         /* background-color: rgb(173, 42, 42); */
         display: flex;
+        flex-direction: row-reverse ;
+        justify-content: space-between;
         row-gap: 24px;
-        height: 100%;
+        width: 100%;
     }
     
     .namePp {
@@ -169,6 +172,7 @@
         align-items: center;
         justify-content: space-between;
         column-gap: 10px;
+
     }
     
     .name {
@@ -178,7 +182,7 @@
         font-size: 12px;
         font-weight: 500;
         color: #FF6060;
-    
+
     }
     
     .pp {
@@ -192,6 +196,7 @@
         display: flex;
         justify-content: flex-start;
         column-gap: 5px;
+        width: 50%;
     }
     
     .star {

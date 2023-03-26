@@ -12,7 +12,7 @@ const Banner = (props) => {
       {props.home ? (
         <>
           <div className={styles.blend}></div>
-          <h1 className={styles.bannerText}>Chez Vous, <br /> partout et ailleurs</h1>
+          <h1 className={styles.bannerText}> <span>Chez Vous, </span> <span>partout et ailleurs</span> </h1>
         </>
       ) : null}
     </div>

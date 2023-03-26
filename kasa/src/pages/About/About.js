@@ -1,18 +1,28 @@
 import React from "react";
-import Banner from "../../components/Banner/Banner";
+
 import DropDown from "../../components/DropDown/DropDown";
 import * as aboutList from "../../MocksDatas/about.json";
 import styles from "./About.module.css";
 
 const About = () => {
-  const img = "./AboutBanner.png";
+
 
   return (
     <div>
-      <Banner imgSource={img} />
+      <header className={`${styles.hero} ${styles.aboutheader}`}>
+        <img
+          className={`${styles.heroimg} ${styles.aboutimage}`}
+          src={
+            window.innerWidth > 768
+              ? '/assets/about.png'
+              : '/assets/smallabout.png'
+          }
+          alt=""
+        />
+      </header>
       <div className={styles.aboutdropcontainer}>
         {aboutList.default.map((data) => (
-          <DropDown title={data.title} datas={data.description} about={true} />
+          <DropDown key={data.title} title={data.title} datas={data.description} about={true} />
         ))}
       </div>
     </div>
