@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../components/Banner/Banner";
-import DropDown from "../components/DropDown/DropDown";
-import * as aboutList from "../MocksDatas/about.json";
+import Banner from "../../components/Banner/Banner";
+import DropDown from "../../components/DropDown/DropDown";
+import * as aboutList from "../../MocksDatas/about.json";
 import styles from "./About.module.css";
 
 const About = () => {

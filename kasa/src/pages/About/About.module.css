@@ -1,0 +1,17 @@
+.aboutdropcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* width: 1240px; */
+}
+
+@media screen and (max-width:375px) {
+    .aboutdropcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+}

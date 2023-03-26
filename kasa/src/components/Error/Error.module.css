@@ -30,3 +30,48 @@
   text-decoration-line: underline;
   color: #ff6060;
 }
+
+@media screen and (max-width:375px) {
+
+  .errorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .errorCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 142.6%;
+    color: #ff6060;
+  }
+
+  .errorText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #ff6060;
+    margin-bottom: 182px;
+   text-align: center;
+   
+  }
+  
+  .errorLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142.6%;
+    text-decoration-line: underline;
+    color: #ff6060;
+  }
+}

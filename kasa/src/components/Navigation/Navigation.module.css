@@ -56,3 +56,42 @@
 .navLink:hover {
   color: red;
 }
+
+
+@media screen and (max-width:375px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    margin-bottom: 30px;
+  }
+ 
+  .navContainer {
+    display: flex;
+    margin: 30px;
+    align-items: center;  
+
+  }
+
+  .navigation a {
+    text-decoration: none;
+    padding: 10px;
+    width: 85px;
+    
+  }
+
+  .navActive::after {
+    height: 1px;
+  }
+
+  .navLink {
+    display: flex;
+    justify-content: center;
+    color: #ff6060;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+}

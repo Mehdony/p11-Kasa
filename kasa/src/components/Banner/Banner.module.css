@@ -29,3 +29,41 @@
   color: white;
   size: 48px;
 }
+
+@media screen and (max-width:375px) {
+  
+  .bannerContainer {
+    height: 153px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .background {
+    width: 335px;
+    height: 111px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .blend{
+    position: absolute;
+    width: 335px;
+    height: 111px;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+.bannerText {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  padding-right: 80px;
+}
+
+}

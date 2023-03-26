@@ -35,3 +35,40 @@
     color: white;
     font-size: 18px;
 }
+
+@media screen and (max-width:375px) {
+    .sliderContainer {
+      display: flex;
+      justify-content: center;
+      width: 335px;
+      height: 255px;
+      border-radius: 10px;
+      position: relative;
+      margin: 20px;
+    }
+
+    .sliderImage{
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+.arrowsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+}
+
+.sliderButtons{
+    width: 12px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+}

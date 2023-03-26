@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Slider from "../components/Slider/Slider";
-import * as data from "../MocksDatas/datas.json";
-import HostInfos from "../components/HostInfos/HostInfos";
-import DropDown from "../components/DropDown/DropDown";
+import Slider from "../../components/Slider/Slider";
+import * as data from "../../MocksDatas/datas.json";
+import HostInfos from "../../components/HostInfos/HostInfos";
+import DropDown from "../../components/DropDown/DropDown";
 import styles from "./Logement.module.css";
 
 const Logement = () => {

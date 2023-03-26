@@ -7,7 +7,7 @@ const error = () => {
     <div className={styles.errorContainer}>
       <h1 className={styles.errorCode}>404</h1>
 
-      <h2 className={styles.errorText}> Oups ! La page demandée n'existe pas </h2>
+      <h2 className={styles.errorText}> Oups ! La page que  vous demandez n'existe pas. </h2>
 
       <NavLink className={styles.errorLink}
         to="/">

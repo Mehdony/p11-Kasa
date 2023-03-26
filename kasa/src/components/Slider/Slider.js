@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Slider.module.css";
 
 const Slider = (props) => {
+    
   const [position, setPosition] = useState(0);
   const datas = props.datas;
 
@@ -32,8 +33,6 @@ const Slider = (props) => {
         </>
       )}
     </section>
-
-    
   );
 };
 

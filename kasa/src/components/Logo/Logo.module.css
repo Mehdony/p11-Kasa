@@ -8,3 +8,21 @@ height: 100%;
 object-fit: cover;
 border-radius: none;
 }
+
+@media screen and (max-width:375px) {
+    
+.logo {
+    width: 145px;
+    height: 47px;
+    /* object-fit: cover; */
+    border-radius: none;
+    
+    }
+
+    .logoContainer {
+        border-radius: none;
+        margin: 10px;
+        
+        }
+
+}
