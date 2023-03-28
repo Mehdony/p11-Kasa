@@ -5,11 +5,16 @@ import * as data from "../../MocksDatas/datas.json";
 import HostInfos from "../../components/HostInfos/HostInfos";
 import DropDown from "../../components/DropDown/DropDown";
 import styles from "./Logement.module.css";
+import Error from "../../components/Error/Error";
 
 const Logement = () => {
   const { id } = useParams();
   const datas = data.default.find((data) => data.id === id);
   console.log("log de datas brut : ", datas);
+
+  if(datas=== undefined) {
+    return <Error/>
+  }
 
   return (
     <div>
