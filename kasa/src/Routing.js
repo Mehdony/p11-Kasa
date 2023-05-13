@@ -11,8 +11,6 @@ export default function Routing() {
       <Route path="/" element={<Home />} />
       <Route path="/logement/:id" element={<Logement />} />
       <Route path="/about" element={<About />} />
-      {/* path="*" fonctionne si jamais l'url correspond à rien de déclaré au dessus */}
-      {/* <Route path="*" element={<Home />} /> */}
       <Route path="/*" element={<Error />} />
     </Routes>
   );

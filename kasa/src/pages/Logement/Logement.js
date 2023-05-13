@@ -10,7 +10,7 @@ import Error from "../../components/Error/Error";
 const Logement = () => {
   const { id } = useParams();
   const datas = data.default.find((data) => data.id === id);
-  console.log("log de datas brut : ", datas);
+
 
   if(datas=== undefined) {
     return <Error/>
