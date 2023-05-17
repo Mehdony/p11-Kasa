@@ -2,14 +2,20 @@ import React from "react";
 import styles from "./HostInfos.module.css";
 
 const HostInfos = (props) => {
+  // récupère les données du logement
   const datas = props.datas;
+  // récupère le nombre d'étoiles du logement
   const rating = datas.rating;
+  // images d'étoiles pleines et vides
   const starFill = <img src="/assets/starFill.png" alt="Star fill" />;
   const starEmpty = <img src="/assets/starEmpty.png" alt="Star empty" />;
+  //  on crée un tableau d'étoiles en fonction du nombre d'étoiles du logement
   const stars = [];
+  // on ajoute les étoiles pleines
   for (let i = 0; i < rating; i++) {
     stars.push(starFill);
   }
+  // on ajoute les étoiles vides
   for (let i = 0; i < 5 - rating; i++) {
     stars.push(starEmpty);
   }

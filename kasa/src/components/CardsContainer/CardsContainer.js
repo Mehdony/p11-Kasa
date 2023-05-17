@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 
 const CardsContainer = () => {
   const datas = mockedData.default;
-  console.log(datas);
+
   return (
     <div className={styles.cardsContainer}>
       {datas.map((data, index) => {
